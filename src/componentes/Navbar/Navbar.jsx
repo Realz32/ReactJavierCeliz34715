@@ -1,7 +1,8 @@
 import React from 'react'
 import '../App.css'
 import Formulario from './Formulario'
-import {BiCart} from 'react-icons/bi';
+import CartWidget from '../CartWidget/CartWidget'
+
 const Navbar = () => {
   
   
@@ -31,8 +32,7 @@ const Navbar = () => {
                 
         </div>
     </div>
-    
-    <BiCart className="cart"/>
+    < CartWidget />
     <Formulario/>
 </nav>
 

@@ -3,7 +3,7 @@ import { useState } from "react";
 import './App.css';
 import Navbar from "./Navbar/Navbar";
 import ItemListContainer from "./ItemListContainer/ItemListContainer";
-import {BiCart} from 'react-icons/bi';
+import CartWidget from "./CartWidget/CartWidget";
 
 
 
@@ -19,7 +19,7 @@ function App() {
     
       <ItemListContainer/>
       
-      <BiCart className="cart"/>
+    
       
     
     
